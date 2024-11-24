@@ -56,7 +56,7 @@ namespace SaifmohamedS4assisment.Repo
                 }
             };
         }
-
+        //HELLO
         public List<MovieDTO> getMovies()
         {
           var res = _context.Movies.Include(x=>x.Cinema).Include(x=>x.Catigory).Select(x=>new MovieDTO
